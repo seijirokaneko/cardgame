@@ -116,3 +116,20 @@ p {
     opacity: 0.5;
     background: #fff;
 }
+
+@media screen and (max-width: 640px) {
+    #field ul li {
+        width: 40px;
+        margin: 3px;
+        list-style: none;
+        cursor: pointer;
+        position: relative;
+        transition: 0.2s;
+    }
+    p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
